@@ -186,7 +186,7 @@ include("functions/functions.php");
 									<div class="col-sm-6">
 										<h1><span>K</span>-shop</h1>
 										<h2>K-Shop</h2>
-										<p>Delivering the very best of consumer products around the world. Every one of our products gives you 100% satisfaction. </p>
+										<p>Delivering the very best of consumer products arcross the world. Every one of our products gives you 100% satisfaction. </p>
 
 									</div>
 									<div class="col-sm-6">

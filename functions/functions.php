@@ -3,7 +3,7 @@
 		//establishing the connection
 		$db=mysqli_connect("localhost","kshop007_admin","doyoulikeCHEESE00977$","kshop");
 
-		//gettting IP Address
+		//getting IP Address
 		function getRealIpAddress()
 		{
 			if(!empty($_SERVER['HTTP_CLIENT_IP']))		// check ip from share internet

@@ -18,11 +18,9 @@ if(isset($_GET['c_id'])){
 
 	
 }	
-//getting products information/no. of items from cart
+//getting information/no. of items from cart
 
 $ip_add = getRealIpAddress();
-
-
 
 $total =0;
 
@@ -90,7 +88,7 @@ $run_price = mysqli_query($db, $select_price);
 		
 		
 	//end of while
-	//getting quantity form the cart
+	//getting quantity from the cart
 		$get_cart ="Select * from cart WHERE ip_add = '$ip_add'";
 		$run_cart=mysqli_query($con,$get_cart);
 		$get_qty= mysqli_fetch_array($run_cart);
